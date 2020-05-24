@@ -14,7 +14,10 @@
                 <local:PaletteUI  ColorClass="{x:Type op:FlatUI}" TextSource="https://flatuicolors.com/palette/defo"/>
             </TabItem>
             <TabItem Header="American Palette">
-                <local:PaletteUI  ColorClass="{x:Type op:USPalette}" TextSource="https://flatuicolors.com/palette/defo"/>
+                <local:PaletteUI  ColorClass="{x:Type op:USPalette}" TextSource="https://flatuicolors.com/palette/us"/>
+            </TabItem>
+            <TabItem Header="British Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:GBPalette}" TextSource="https://flatuicolors.com/palette/gb"/>
             </TabItem>
         </TabControl>
     </Grid>
