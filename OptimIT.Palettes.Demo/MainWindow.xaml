@@ -4,30 +4,17 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:OptimIT.Palettes.Demo"
+        xmlns:op="clr-namespace:OptimIT.Palettes;assembly=OptimIT.Palettes"
         mc:Ignorable="d"
         Title="OptimIT.Palettes" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
-        <Grid.Resources>
-            <DataTemplate x:Key="brushslot">
-                <Grid Background="{Binding Brush}" VerticalAlignment="Stretch" HorizontalAlignment="Stretch">
-                    <TextBlock Text="{Binding Hex}" HorizontalAlignment="Center" VerticalAlignment="Bottom" Margin="10" Foreground="{Binding Foreground}"/>
-                    <TextBlock Text="{Binding Name}" HorizontalAlignment="Center" VerticalAlignment="Center"  Foreground="{Binding Foreground}"/>
-                </Grid>
-            </DataTemplate>
-        </Grid.Resources>
+        
         <TabControl>
             <TabItem Header="FlatUI">
-                <DockPanel>
-                    <TextBlock Background="Crimson" Foreground="White" TextAlignment="Center" Text="Source : https://flatuicolors.com/palette/defo" DockPanel.Dock="Bottom"/>
-                    <ListBox ScrollViewer.HorizontalScrollBarVisibility="Disabled" x:Name="list_flatui" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch" ItemTemplate="{StaticResource brushslot}" DockPanel.Dock="Top" >
-                        <ListBox.ItemsPanel>
-                            <ItemsPanelTemplate>
-                                <UniformGrid IsItemsHost="True" Columns="5" Rows="4" />
-                            </ItemsPanelTemplate>
-                        </ListBox.ItemsPanel>
-
-                    </ListBox>
-                </DockPanel>
+                <local:PaletteUI  ColorClass="{x:Type op:FlatUI}" TextSource="https://flatuicolors.com/palette/defo"/>
+            </TabItem>
+            <TabItem Header="American Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:USPalette}" TextSource="https://flatuicolors.com/palette/defo"/>
             </TabItem>
         </TabControl>
     </Grid>

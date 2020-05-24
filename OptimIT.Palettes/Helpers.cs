@@ -32,6 +32,25 @@ namespace OptimIT.Palettes
 
             return lst;
         }
+
+        public static List<PaletteColor> ClassToPalette(Type tt)
+        {
+            var lst = new List<PaletteColor>();
+            var instance = Activator.CreateInstance(tt);
+            foreach (var item in tt.GetProperties().Where(X => X.PropertyType == typeof(SolidColorBrush)))
+            {
+                var brush = (SolidColorBrush)instance.GetValueByProperty(item.Name);
+                lst.Add(new PaletteColor
+                {
+                    Name = item.Name,
+                    Brush = brush,
+                    Hex = "#" + bc.ConvertToString(brush).TrimStart('#', 'F', 'F'),
+                    Foreground = brush.ForegroundFromBrightness()
+                });
+            }
+
+            return lst;
+        }
         public static SolidColorBrush ForegroundFromBrightness(this Brush brush)
         {
             return brush.PerceivedBrightness() ? Brushes.Black : Brushes.White;
