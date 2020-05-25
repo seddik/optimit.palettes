@@ -19,6 +19,9 @@
             <TabItem Header="British Palette">
                 <local:PaletteUI  ColorClass="{x:Type op:GBPalette}" TextSource="https://flatuicolors.com/palette/gb"/>
             </TabItem>
+            <TabItem Header="Aussie Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:AUPalette}" TextSource="https://flatuicolors.com/palette/au"/>
+            </TabItem>
         </TabControl>
     </Grid>
 </Window>
