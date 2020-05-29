@@ -45,6 +45,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AUPalette.cs" />
+    <Compile Include="TRPalette.cs" />
+    <Compile Include="SEPalette.cs" />
+    <Compile Include="ESPalette.cs" />
+    <Compile Include="RUPalette.cs" />
+    <Compile Include="INPalette.cs" />
+    <Compile Include="DEPalette.cs" />
+    <Compile Include="FRPalette.cs" />
+    <Compile Include="NLPalette.cs" />
+    <Compile Include="CNPalette.cs" />
+    <Compile Include="CAPalette.cs" />
     <Compile Include="GBPalette.cs" />
     <Compile Include="USPalette.cs" />
     <Compile Include="FlatUI.cs" />

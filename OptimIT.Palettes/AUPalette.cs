@@ -32,7 +32,7 @@ namespace OptimIT.Palettes
         public SolidColorBrush SteelPink => "#be2edd".ToBrush();
         public SolidColorBrush Blurple => "#4834d4".ToBrush();
         public SolidColorBrush DeepCove => "#4834d4".ToBrush();
-        public SolidColorBrush WiearGrey => "#535c68".ToBrush();
+        public SolidColorBrush WizardGrey => "#535c68".ToBrush();
 
 
 

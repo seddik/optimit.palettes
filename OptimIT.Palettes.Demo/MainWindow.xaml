@@ -9,18 +9,48 @@
         Title="OptimIT.Palettes" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         
-        <TabControl>
+        <TabControl >
             <TabItem Header="FlatUI">
                 <local:PaletteUI  ColorClass="{x:Type op:FlatUI}" TextSource="https://flatuicolors.com/palette/defo"/>
             </TabItem>
             <TabItem Header="American Palette">
                 <local:PaletteUI  ColorClass="{x:Type op:USPalette}" TextSource="https://flatuicolors.com/palette/us"/>
             </TabItem>
+            <TabItem Header="Aussie Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:AUPalette}" TextSource="https://flatuicolors.com/palette/au"/>
+            </TabItem>
             <TabItem Header="British Palette">
                 <local:PaletteUI  ColorClass="{x:Type op:GBPalette}" TextSource="https://flatuicolors.com/palette/gb"/>
             </TabItem>
-            <TabItem Header="Aussie Palette">
-                <local:PaletteUI  ColorClass="{x:Type op:AUPalette}" TextSource="https://flatuicolors.com/palette/au"/>
+            <TabItem Header="Canadian Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:CAPalette}" TextSource="https://flatuicolors.com/palette/ca"/>
+            </TabItem>
+            <TabItem Header="Chinese Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:CNPalette}" TextSource="https://flatuicolors.com/palette/cn"/>
+            </TabItem>
+            <TabItem Header="Dutch Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:NLPalette}" TextSource="https://flatuicolors.com/palette/nl"/>
+            </TabItem>
+            <TabItem Header="French Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:FRPalette}" TextSource="https://flatuicolors.com/palette/fr"/>
+            </TabItem>
+            <TabItem Header="German Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:DEPalette}" TextSource="https://flatuicolors.com/palette/de"/>
+            </TabItem>
+            <TabItem Header="Indian Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:INPalette}" TextSource="https://flatuicolors.com/palette/in"/>
+            </TabItem>
+            <TabItem Header="Russian Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:RUPalette}" TextSource="https://flatuicolors.com/palette/ru"/>
+            </TabItem>
+            <TabItem Header="Spanish Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:ESPalette}" TextSource="https://flatuicolors.com/palette/es"/>
+            </TabItem>
+            <TabItem Header="Swedish Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:SEPalette}" TextSource="https://flatuicolors.com/palette/se"/>
+            </TabItem>
+            <TabItem Header="Turkish Palette">
+                <local:PaletteUI  ColorClass="{x:Type op:TRPalette}" TextSource="https://flatuicolors.com/palette/tr"/>
             </TabItem>
         </TabControl>
     </Grid>
