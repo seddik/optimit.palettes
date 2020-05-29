@@ -29,10 +29,4 @@ LARABA MOHAMMED SEDDIK
 
 ![Demo app](https://raw.githubusercontent.com/seddik/optimit.palettes/master/img/main.png)
 
-![Demo app](https://raw.githubusercontent.com/seddik/optimit.palettes/master/img/us.png)
-
-![Demo app](https://raw.githubusercontent.com/seddik/optimit.palettes/master/img/gb.png)
-
-![Demo app](https://raw.githubusercontent.com/seddik/optimit.palettes/master/img/au.png)
-
 
