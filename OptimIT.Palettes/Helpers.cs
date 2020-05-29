@@ -51,11 +51,11 @@ namespace OptimIT.Palettes
 
             return lst;
         }
-        public static SolidColorBrush ForegroundFromBrightness(this Brush brush)
+        internal static SolidColorBrush ForegroundFromBrightness(this Brush brush)
         {
             return brush.PerceivedBrightness() ? Brushes.Black : Brushes.White;
         }
-        public static bool PerceivedBrightness(this Brush brush)
+        internal static bool PerceivedBrightness(this Brush brush)
         {
             try
             {
@@ -74,7 +74,7 @@ namespace OptimIT.Palettes
 
 
         }
-        public static object GetValueByProperty(this object obj, string propertyName)
+        internal static object GetValueByProperty(this object obj, string propertyName)
         {
             if (propertyName == ".")
             {

@@ -45,6 +45,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AUPalette.cs" />
+    <Page Include="Colors.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Compile Include="TRPalette.cs" />
     <Compile Include="SEPalette.cs" />
     <Compile Include="ESPalette.cs" />

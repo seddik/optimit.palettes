@@ -9,7 +9,7 @@
         Title="OptimIT.Palettes" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize">
     <Grid>
         
-        <TabControl >
+        <TabControl x:Name="main_tab">
             <TabItem Header="FlatUI">
                 <local:PaletteUI  ColorClass="{x:Type op:FlatUI}" TextSource="https://flatuicolors.com/palette/defo"/>
             </TabItem>
