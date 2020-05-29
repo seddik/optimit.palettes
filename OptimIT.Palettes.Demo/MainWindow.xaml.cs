@@ -36,7 +36,7 @@ namespace OptimIT.Palettes.Demo
             //            continue;
             //        if (list_colors.Contains(color.Name))
             //            continue;
-
+            //        list_colors.Add(color.Name);
             //        s += $@"<SolidColorBrush x:Key=""{color.Name}""  Color=""{color.Hex}""/>" + Environment.NewLine;
             //    }
 

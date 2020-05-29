@@ -42,7 +42,6 @@
     <SolidColorBrush x:Key="HintOfIcePack"  Color="#C7ECEE"/>
     <SolidColorBrush x:Key="MiddleBlue"  Color="#7ED6DF"/>
     <SolidColorBrush x:Key="HelioTrope"  Color="#E056FD"/>
-    <SolidColorBrush x:Key="ExodusFruit"  Color="#686DE0"/>
     <SolidColorBrush x:Key="DeepKoamaru"  Color="#30336B"/>
     <SolidColorBrush x:Key="SoaringEagle"  Color="#95AFC0"/>
     <SolidColorBrush x:Key="GreenlandGreen"  Color="#22A6B3"/>
@@ -94,7 +93,6 @@
     <SolidColorBrush x:Key="LimeSoap"  Color="#7BED9F"/>
     <SolidColorBrush x:Key="FrenchSkyBlue"  Color="#70A1FF"/>
     <SolidColorBrush x:Key="SaturatedSky"  Color="#5352ED"/>
-    <SolidColorBrush x:Key="CityLights"  Color="#DFE4EA"/>
     <SolidColorBrush x:Key="UFOGreen"  Color="#2ED573"/>
     <SolidColorBrush x:Key="ClearChill"  Color="#1E90FF"/>
     <SolidColorBrush x:Key="BrightGreek"  Color="#3742FA"/>
@@ -143,7 +141,6 @@
     <SolidColorBrush x:Key="HighBlue"  Color="#45AAF2"/>
     <SolidColorBrush x:Key="C64NTSC"  Color="#4B7BEC"/>
     <SolidColorBrush x:Key="LighterPurple"  Color="#A55EEA"/>
-    <SolidColorBrush x:Key="TwinkleBlue"  Color="#D1D8E0"/>
     <SolidColorBrush x:Key="BlueGrey"  Color="#778CA3"/>
     <SolidColorBrush x:Key="BayZone"  Color="#2D98DA"/>
     <SolidColorBrush x:Key="RoyalBlue"  Color="#3867D6"/>
@@ -155,14 +152,11 @@
     <SolidColorBrush x:Key="HoneyGlow"  Color="#EAB543"/>
     <SolidColorBrush x:Key="SweetGarden"  Color="#55E6C1"/>
     <SolidColorBrush x:Key="FallingStar"  Color="#CAD3C8"/>
-    <SolidColorBrush x:Key="ClearChill"  Color="#1B9CFC"/>
     <SolidColorBrush x:Key="Keppel"  Color="#58B19F"/>
     <SolidColorBrush x:Key="ShipsOfficer"  Color="#2C3A47"/>
     <SolidColorBrush x:Key="FieryFuchsia"  Color="#B33771"/>
-    <SolidColorBrush x:Key="BlueBell"  Color="#3B3B98"/>
     <SolidColorBrush x:Key="OasisStream"  Color="#9AECDB"/>
     <SolidColorBrush x:Key="BrightUBE"  Color="#D6A2E8"/>
-    <SolidColorBrush x:Key="MagentaPurple"  Color="#6D214F"/>
     <SolidColorBrush x:Key="EndingNavyBlue"  Color="#182C61"/>
     <SolidColorBrush x:Key="PineGlade"  Color="#BDC581"/>
     <SolidColorBrush x:Key="HighlighterLavender"  Color="#82589F"/>
@@ -200,12 +194,9 @@
 
     <SolidColorBrush x:Key="HighlighterPink"  Color="#EF5777"/>
     <SolidColorBrush x:Key="DarkPeriwinkle"  Color="#575FCF"/>
-    <SolidColorBrush x:Key="MegaMan"  Color="#4BCFFA"/>
     <SolidColorBrush x:Key="FreshTurquoise"  Color="#34E7E4"/>
     <SolidColorBrush x:Key="MintyGreen"  Color="#0BE881"/>
     <SolidColorBrush x:Key="FreeSpeechBlue"  Color="#3C40C6"/>
-    <SolidColorBrush x:Key="SpiroDiscoBall"  Color="#0FBCF9"/>
-    <SolidColorBrush x:Key="JadeDust"  Color="#00D8D6"/>
     <SolidColorBrush x:Key="GreenTeal"  Color="#05C46B"/>
     <SolidColorBrush x:Key="HintOfElusiveBlue"  Color="#D2DAE2"/>
     <SolidColorBrush x:Key="GoodNight"  Color="#485460"/>
@@ -221,8 +212,9 @@
     <SolidColorBrush x:Key="ShadowedSteel"  Color="#4B4B4B"/>
     <SolidColorBrush x:Key="WeirdGreen"  Color="#3AE374"/>
     <SolidColorBrush x:Key="HammanBlue"  Color="#67E6DC"/>
-    <SolidColorBrush x:Key="SpiroDiscoBall"  Color="#17C0EB"/>
     <SolidColorBrush x:Key="LightIndigo"  Color="#7158E2"/>
     <SolidColorBrush x:Key="BalticSea"  Color="#3D3D3D"/>
+
+
 
 </ResourceDictionary>
