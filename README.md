@@ -13,7 +13,7 @@ Any suggestion or PR is welcome ❤, just commit on a named branch then create a
 
 ### Supported platforms Roadmap
 - [x] WPF Support C#
-- [ ] WPF Support XAML
+- [x] WPF Support XAML
 - [ ] WinForms Support C#
 - [ ] Xamarin.Forms Support C#
 - [ ] Xamarin.Forms Support XAML
