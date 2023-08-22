@@ -15,8 +15,6 @@ Any suggestion or PR is welcome ❤, just commit on a named branch then create a
 - [x] WPF Support C#
 - [x] WPF Support XAML
 - [ ] WinForms Support C#
-- [ ] Xamarin.Forms Support C#
-- [ ] Xamarin.Forms Support XAML
 - [ ] .NetStandard
 - [ ] CSS Support
 
